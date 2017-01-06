@@ -1,0 +1,18 @@
+{
+  "name": "asista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"css": "npm run sass && npm run autoprefixer",
+    "sass": "node-sass css/style.scss dist/style.css",
+    "autoprefixer": "postcss --use autoprefixer dist/style.css -d dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "node-sass": "^4.1.1",
+    "postcss-cli": "^2.6.0"
+  }
+}

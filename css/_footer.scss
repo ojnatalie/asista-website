@@ -1,0 +1,144 @@
+ /*footer*/
+.c-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+    box-sizing: border-box;
+    background-color: #0d0c14;
+    overflow: hidden;
+}
+
+.c-footer__inner {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 100%;
+}
+
+.c-footer__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+}
+
+.footer-col {
+    flex-basis: 25%;
+}
+
+@media (max-width: 750px) {
+  .footer-col {
+    flex-basis: 50%; 
+    padding-bottom: 1em;} }
+
+.footer-col-h1 {
+    color: white;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
+
+.footer-col-a {
+    display: flex;
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+    color: #4d4b59;
+}
+
+.c-footer__social {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.c-footer__social-svg {
+    display: flex;
+}
+
+.si-footer svg {
+    height: 38px;
+    fill: #4d4b59;
+}
+
+.c-footer__social-a {
+    flex-basis: 100%;
+}
+
+.a-social {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5em 0.5em 0 0;
+    font-size: 1.4em;
+    color: #4d4b59;
+
+}
+
+.footer-logo {
+    padding-right: 2em;
+}
+
+@media (max-width: 620px) {
+  .footer-logo {
+    padding-right: 2em;
+    display: block;
+    margin-left: 15px;
+  }
+  .c-footer__social-svg {
+    display: block;
+  }
+  .a-social {
+    display: block;
+    margin-left: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  .c-footer__inner {
+    display: block;
+    text-align: center;
+  }
+  .c-footer__social {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   flex-direction: row;
+  }
+
+ .c-footer__social-svg {
+   min-width: 250px;
+  }
+
+  .footer-col {
+    padding-bottom: 3em;
+  }
+
+  .a-social {
+    margin: 0;
+    padding-top: 2em;
+  }
+
+  .c-footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  .footer-col-a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5em;
+    font-size: 1.8em;
+    color: #4d4b59;
+  }
+
+  .si-footer svg {
+    height: 60px;
+  }
+
+  .footer-logo {
+    padding: 0 0 2em 0;
+    margin: auto;
+    height: 40px !important;  
+  }
+}

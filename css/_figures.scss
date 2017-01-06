@@ -1,0 +1,103 @@
+/*figures*/
+.c-figures {
+  height: 500px;
+  position: relative;
+  margin-top: -150px; }
+
+.c-figures__left {
+  width: 50%;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  background: #161621;
+  margin-right: auto;
+  -webkit-transform: skewY(10deg);
+          transform: skewY(10deg); }
+
+.c-figures__right {
+  width: 100%;
+  height: 320px;
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+  background-color: #1e1e2b;
+  background: url(../img/figure-bg.jpg) center/cover;
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.c-figures__right-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: skewY(10deg);
+          transform: skewY(10deg);
+  margin-left: 50px;
+  z-index: 4; }
+
+.rhomb {
+  width: 100px;
+  height: 100px;
+  border: solid 2px #51525b;
+  background: transparent;
+  border-radius: 20%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 50px;
+  cursor: pointer;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+@media (max-width: 580px) {
+  .rhomb {
+    margin-right: 40px; } }
+
+@media (max-width: 480px) {
+  .rhomb {
+    margin-right: -10px; }
+  .c-figures__right-inner {
+    margin-left: 0px; } }
+
+.rhomb:nth-of-type(2) {
+  background: #cb4040;
+  border: solid 2px #cb4040;
+  z-index: 4; }
+
+.rhomb:hover {
+  background: #51525b; }
+
+.rhomb:nth-of-type(2):hover {
+  background: transparent;
+  border: solid 2px #cb4040; }
+
+.rhomb a {
+  display: inline-block;
+  padding: 25px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px; }

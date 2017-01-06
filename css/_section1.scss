@@ -1,0 +1,55 @@
+/*section 1*/
+.c-section1 {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15em; }
+
+.c-section1__inner {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+.c-section1-h1 {
+  font-weight: 800;
+  font-size: 3.6em;
+  color: #222;
+  text-transform: uppercase;
+  line-height: 50px; }
+
+.c-section1-h2 {
+  font-family: Merriweather, serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  color: #444;
+  line-height: 30px;
+  padding: 20px 0;
+  max-width: 700px; }
+
+.c-section1-p {
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #777;
+  line-height: 25px; }

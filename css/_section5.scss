@@ -1,0 +1,73 @@
+/*section5*/
+.c-section5 {
+  display: flex;
+  background: #161621;
+  height: 350px;
+  padding: 5em 1em 0 1em;
+}
+
+.c-section5__inner {
+  display: flex;
+  flex-basis: 100%;
+  align-content: center;
+}
+
+.c-section5__content {
+  flex-basis: 40%;
+  padding: 0 5em 3em 0;
+}
+
+.c-section5-h1 {
+  font-size: 5.2em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.2em 0 .8em 0; 
+}
+
+.c-section5-h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  color: #bfbfc2;
+  padding-bottom: 2em;
+}
+
+.c-section5__right {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 483.33px;
+  box-sizing: border-box;
+  padding: 0 1em;
+}
+
+.c-section5__right-img {
+    height: 100%;
+    width: 100%;
+    background: url(../img/kzero.jpg) center/cover;
+}
+.c-section__right-h3 {
+  font-size: 1.6em;
+  color: #cad9e3;
+  padding: 0.8em 0 0.5em 0;
+}
+
+@media (max-width: 800px) {
+  .c-section5__inner {
+    flex-direction: column;
+    padding: 0;
+  }
+  .c-section5__right {
+    flex-direction: column;
+     width: 100%;
+  }
+ .c-section5__content {
+    text-align: center;
+    padding: 0 0em 3em 0;
+  }
+ .c-section5-h1 {
+   font-size: 3em;
+  }
+}

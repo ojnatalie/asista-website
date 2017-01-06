@@ -1,0 +1,65 @@
+/*mobile nav*/
+.hamburger {
+  display: none;
+}
+
+.mobile__nav {
+    margin-left: auto;
+}
+
+@media (max-width: 560px) {
+  .hamburger {
+      background: none;
+      border: none;
+      display: block;
+      margin-left: auto;
+      padding: 0;
+  }
+
+  .hamburger-svg {
+    fill: #777 !important;
+    margin-top: -10px;
+  }
+
+  .mobile__nav {
+      visibility: hidden;
+      width: 100%;
+      height: 0;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: #161621;
+      text-align: center;
+      transition: 0.3s;
+      opacity: 0;
+  }
+
+  .hamburger:focus + .mobile__nav,
+  .mobile__nav:hover {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+      height: 350px;
+  }
+
+  .c-navbar__list {
+      display: block;
+  }
+
+  .c-navbar__list a {
+      line-height: 70px;
+      font-weight: 400;
+      font-size: 2em;
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      list-style: none;
+  }
+
+  .c-navbar__list a:hover {
+      color: #fff;
+  }
+
+  .c-navbar__list li:last-of-type a {
+      padding: 0 20px;
+  }
+}

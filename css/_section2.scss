@@ -1,0 +1,105 @@
+/*section 2*/
+.c-section2 {
+  width: 100%;
+  height: 200px;
+  background-color: #cb4040;
+  overflow: hidden;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.c-section2__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.content {
+  padding-left: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+@media (max-width: 1024px) {
+  .content {
+    width: 100%;
+    padding: 0 5em;
+    text-align: center;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+.c-section2-h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  font-style: italic;
+  color: #fff; }
+
+.c-section2-h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.2em 0 1.5em 0; }
+
+.c-section2-p {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  line-height: 33px;
+  color: #fff;
+  padding-bottom: 2em; }
+
+.c-btn {
+  display: inline-block;
+  background-color: transparent;
+  font-size: 1.4em;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  color: #fff;
+  padding: 1.3em 3.2em;
+/*  margin-right: 10px;*/
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s; }
+
+.c-btn:hover {
+  background: rgba(255, 255, 255, 0.1); }
+
+.c-section2-img {
+  height: 400px;
+  width: 1550px;
+  position: relative;
+  top: 0;
+  left: 100px;
+  background: url(../img/section2-img.jpg) center/cover; }
+
+@media (max-width: 1024px) {
+  .c-section2-img {
+    display: none; } }
