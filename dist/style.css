@@ -885,6 +885,7 @@ section {
     .c-section5__right {
         flex-direction: column;
         width: 100%;
+        padding: 0 0em;
     }
     .c-section5__content {
         text-align: center;
