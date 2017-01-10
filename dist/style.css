@@ -69,8 +69,8 @@ section {
     min-height: 654px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #101017;
     background: url(../img/header-bg.jpg) center/cover;
+    background-color: #101017;
     z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
