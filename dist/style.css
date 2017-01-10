@@ -620,6 +620,14 @@ section {
     padding-left: 1.5rem;
 }
 
+@media (max-width: 480px) {
+  .headline-span {
+    display: block;
+    line-height: 50px; 
+    padding-left: 0rem;
+  }
+}
+
 .headline-span::after {
     content: '';
     display: block;
