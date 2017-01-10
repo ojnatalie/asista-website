@@ -311,8 +311,8 @@ section {
   height: 320px;
   -webkit-transform: skewY(-10deg);
   transform: skewY(-10deg);
-  background-color: #1e1e2b;
   background: url(../img/figure-bg.jpg) center/cover;
+  background-color: #1e1e2b;
   -webkit-transform-origin: right top;
   transform-origin: right top;
   display: -webkit-box;
