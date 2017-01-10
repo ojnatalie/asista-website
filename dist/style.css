@@ -1069,6 +1069,7 @@ section {
   -webkit-transform: skewY(-10deg);
           transform: skewY(-10deg);
   background-color: #cb4040;
+  z-index: 2;
   -webkit-transform-origin: right top;
           transform-origin: right top;
   display: -webkit-box;
