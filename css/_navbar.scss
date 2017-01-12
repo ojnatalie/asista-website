@@ -1,79 +1,94 @@
-/*navbar*/
 .c-navbar {
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  will-change: transform;
-  z-index: 3; }
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    width: 100%;
+    height: 80px;
+
+    transition: .3s;
+
+    will-change: transform;
+}
 
 .c-navbar.is-hidden {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%); }
+    transform: translateY(-100%);
+}
 
 .c-navbar.is-below {
-  background-color: #161621; }
+    background-color: #161621;
+}
 
 .c-navbar::after {
-  content: "";
-  width: 100%;
-  height: 50%;
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 100%; }
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 50%;
+
+    content: "";
+}
 
 .c-navbar:hover {
-  -webkit-transition-delay: 0.3s;
-          transition-delay: 0.3s;
-  -webkit-transform: none;
-          transform: none; }
+    transition-delay: .3s;
+    transform: none;
+}
 
 .c-navbar__inner {
-  display: flex;
-  align-items: center;
-  height: 80px; }
+    display: flex;
+    height: 80px;
+
+    align-items: center;
+}
 
 .c-navbar__logo svg {
-  height: 30px;
-  padding-bottom: 0.3em; }
+    height: 30px;
+    padding-bottom: .3em;
+}
 
 .c-navbar__tel {
-  padding-left: 1.2em;
-  font-weight: 700;
-  font-size: 1.8em;
-  color: #565560;
-  text-decoration: none; }
+    padding-left: 1.2em;
 
-@media (max-width: 720px) {
-  .c-navbar__tel {
-    display: none; } }
+    font-size: 1.8em;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    color: #565560;
+}
+
+@media (max-width:720px) {
+    .c-navbar__tel {
+        display: none;
+    }
+}
 
 .c-navbar__list {
-  margin-left: auto;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+    display: flex;
+    margin-left: auto;
+}
 
 .c-navbar__list a {
-  display: inline-block;
-  line-height: 80px;
-  padding: 0 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 400;
-  font-size: 1.4em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none; }
+    display: inline-block;
+    padding: 0 20px;
+
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 80px;
+
+    transition: .3s;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, .6);
+}
 
 .c-navbar__list a:hover {
-  color: #fff; }
+    color: #fff;
+}
 
 .c-navbar__list li:last-of-type a {
-  padding-right: 0; }
+    padding-right: 0;
+}
