@@ -704,16 +704,7 @@ section {
     transform: rotate(-45deg);
 
     border-radius: 10%;
-    background: #cb4040 url(../img/s2-bg.jpg) no-repeat center/cover;
-}
-
-.c-section2__img::after {
-    width: 100%;
-    height: 100%;
-
-    content: "";
-
-    background: #cb4040;
+    background: #bcbebb url(../img/s2-bg.jpg) no-repeat center/cover;
 }
 
 @media (max-width:1024px) {
