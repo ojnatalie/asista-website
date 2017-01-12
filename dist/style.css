@@ -172,7 +172,8 @@ section {
     align-items: center;
 }
 
-.c-header svg {
+.c-header__logo,
+.c-navbar__logo1 {
     fill: #cb4040;
 }
 
@@ -250,11 +251,19 @@ section {
 }
 
 .arrow {
+    display: inline-block;
     width: 50px;
     height: 50px;
-    padding-top: 3em;
+    margin-top: 3em;
 
-    fill: #1e1f2b !important;
+    cursor: pointer;
+    transition: .2s;
+
+    fill: #1e1f2b;
+}
+
+.arrow:hover {
+    fill: rgba(255, 255, 255, .4);
 }
 
 @media (max-width:760px) {
@@ -315,7 +324,7 @@ section {
     align-items: center;
 }
 
-.c-navbar__logo svg {
+.c-navbar__logo1 {
     height: 30px;
     padding-bottom: .3em;
 }
@@ -383,7 +392,7 @@ section {
     }
 
     .c-hamburger__svg {
-        fill: #777 !important;
+        fill: #777;
     }
 
     .mobile__nav {
