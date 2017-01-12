@@ -1024,6 +1024,7 @@ section {
     width: 100%;
     min-width: 430px;
     height: 100%;
+    margin: 0 auto;
 
     background-position: center;
     background-size: cover;
@@ -1058,6 +1059,12 @@ section {
 
         width: 100%;
         height: 190%;
+    }
+}
+
+@media (max-width:480px) {
+    .c-section5__content--right__img {
+        min-width: 280px;
     }
 }
 
