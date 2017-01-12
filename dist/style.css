@@ -1022,14 +1022,14 @@ section {
 
 .c-section5__content--right__img {
     width: 100%;
-    min-width: 350px;
+    min-width: 430px;
     height: 100%;
 
     background-position: center;
     background-size: cover;
 }
 
-@media (max-width:800px) {
+@media (max-width:860px) {
     .c-section5 {
         padding: 10em 1em 14.9em 1em;
     }
