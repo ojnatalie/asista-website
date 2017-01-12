@@ -516,8 +516,8 @@ section {
         margin-right: -10px;
     }
 
-    .c-figures__right-inner {
-        margin-left: 0;
+    .figure--right__inner {
+        margin-left: 0px;
     }
 }
 
