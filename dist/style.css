@@ -167,10 +167,7 @@ section {
     height: 100vh;
     min-height: 654px;
 
-    background: url(../img/header-bg.jpg) center/cover;
-    background-color: #101017;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #101017 url(../img/header-bg.jpg) no-repeat center/cover;
 
     align-items: center;
 }
@@ -468,8 +465,7 @@ section {
     transform: skewY(-10deg);
     transform-origin: right top;
 
-    background: url(../img/figure-bg.jpg) center/cover;
-    background-color: #1e1e2b;
+    background: #1e1e2b url(../img/figure-bg.jpg) no-repeat center/cover;
 
     align-items: center;
     justify-content: center;
@@ -708,8 +704,7 @@ section {
     transform: rotate(-45deg);
 
     border-radius: 10%;
-    background: url(../img/s2-bg.jpg) center/contain;
-    background-color: #cb4040;
+    background: #cb4040 url(../img/s2-bg.jpg) no-repeat center/cover;
 }
 
 .c-section2__img::after {
