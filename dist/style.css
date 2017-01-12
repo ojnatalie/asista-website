@@ -1099,8 +1099,16 @@ section {
     padding-bottom: 1em;
 
     font-size: 1.4em;
+    font-weight: 400;
 
-    color: #4d4b59;
+    transition: .3s;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, .6);
+}
+
+.c-footer__col__a:hover {
+    color: #fff;
 }
 
 .c-footer__social {
@@ -1247,8 +1255,6 @@ section {
         flex-direction: column;
 
         font-size: 1.8em;
-
-        color: #4d4b59;
     }
 }
 
