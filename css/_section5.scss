@@ -1,73 +1,84 @@
-/*section5*/
 .c-section5 {
-  display: flex;
-  background: #161621;
-  height: 350px;
-  padding: 5em 1em 0 1em;
+    display: flex;
+    height: 350px;
+    padding: 10em 1em 0 1em;
+
+    background: #161621;
 }
 
 .c-section5__inner {
-  display: flex;
-  flex-basis: 100%;
-  align-content: center;
+    display: flex;
+
+    align-content: center;
+    flex-basis: 100%;
 }
 
-.c-section5__content {
-  flex-basis: 40%;
-  padding: 0 5em 3em 0;
+.c-section5__content--left {
+    padding: 0 5em 3em 0;
+
+    flex-basis: 40%;
 }
 
-.c-section5-h1 {
-  font-size: 5.2em;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: #fff;
-  padding: 0.2em 0 .8em 0; 
+.c-section5__content__h1 {
+    padding: 0 0 .8em 0;
+    margin-top: -6px;
+
+    font-size: 5.2em;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: #fff;
 }
 
-.c-section5-h2 {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 1.8em;
-  color: #bfbfc2;
-  padding-bottom: 2em;
+.c-section5__content__h2 {
+    padding-bottom: 1em;
+
+    font-family: "Merriweather", serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 25px;
+
+    color: #bfbfc2;
 }
 
-.c-section5__right {
-  display: flex;
-  flex-basis: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 483.33px;
-  box-sizing: border-box;
-  padding: 0 1em;
+.c-section5__content--right {
+    display: flex;
+    width: 640px;
+    padding: 0 1em;
+
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.c-section5__right-img {
-    height: 100%;
+.c-section5__content--right__img {
     width: 100%;
-    background: url(../img/kzero.jpg) center/cover;
-}
-.c-section__right-h3 {
-  font-size: 1.6em;
-  color: #cad9e3;
-  padding: 0.8em 0 0.5em 0;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
 }
 
-@media (max-width: 800px) {
-  .c-section5__inner {
-    flex-direction: column;
-    padding: 0;
-  }
-  .c-section5__right {
-    flex-direction: column;
-     width: 100%;
-  }
- .c-section5__content {
-    text-align: center;
-    padding: 0 0em 3em 0;
-  }
- .c-section5-h1 {
-   font-size: 3em;
-  }
+@media (max-width:800px) {
+    .c-section5__inner {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .c-section5__content--right {
+        width: 100%;
+        padding: 0 0;
+        flex-direction: column;
+    }
+
+    .c-section5__content--left {
+        padding: 0 0 3em 0;
+
+        text-align: center;
+    }
+
+    .c-section5__content__h1 {
+        font-size: 3em;
+    }
 }
