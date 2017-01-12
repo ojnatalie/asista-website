@@ -1,105 +1,129 @@
-/*section 2*/
 .c-section2 {
-  width: 100%;
-  height: 200px;
-  background-color: #cb4040;
-  overflow: hidden;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+    display: flex;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+    background-color: #cb4040;
+}
 
 .c-section2__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.content {
-  padding-left: 5em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-
-@media (max-width: 1024px) {
-  .content {
-    width: 100%;
-    padding: 0 5em;
-    text-align: center;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-align-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; } }
 
-.c-section2-h1 {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 1.6em;
-  font-style: italic;
-  color: #fff; }
+    align-items: center;
+}
 
-.c-section2-h2 {
-  font-size: 36px;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: #fff;
-  padding: 0.2em 0 1.5em 0; }
+.c-section2__content {
+    display: flex;
+    padding-left: 5em;
+    flex-direction: column;
 
-.c-section2-p {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 1.8em;
-  line-height: 33px;
-  color: #fff;
-  padding-bottom: 2em; }
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+    .c-section2__content {
+        display: flex;
+        width: 100%;
+        padding: 0 5em;
+
+        text-align: center;
+
+        align-items: center;
+    }
+}
+
+.c-section2__content__h1 {
+    font-family: "Merriweather", serif;
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: 300;
+
+    color: #fff;
+}
+
+.c-section2__content__h2 {
+    padding: .2em 0 1.5em 0;
+
+    font-size: 36px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.c-section2__content__p {
+    padding-bottom: 2em;
+
+    font-family: "Merriweather", serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 33px;
+
+    color: #fff;
+}
 
 .c-btn {
-  display: inline-block;
-  background-color: transparent;
-  font-size: 1.4em;
-  font-weight: 700;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 4px;
-  color: #fff;
-  padding: 1.3em 3.2em;
-/*  margin-right: 10px;*/
-  text-align: center;
-  white-space: nowrap;
-  cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s; }
+    display: inline-block;
+    padding: 1.3em 3.2em;
+
+    font-size: 1.4em;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: .2s;
+    text-align: center;
+    white-space: nowrap;
+
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 4px;
+    background-color: transparent;
+}
 
 .c-btn:hover {
-  background: rgba(255, 255, 255, 0.1); }
+    background: rgba(255, 255, 255, .1);
+}
 
-.c-section2-img {
-  height: 400px;
-  width: 1550px;
-  position: relative;
-  top: 0;
-  left: 100px;
-  background: url(../img/section2-img.jpg) center/cover; }
+.c-section2__img {
+    position: relative;
+    top: 0;
+    right: 0;
 
-@media (max-width: 1024px) {
-  .c-section2-img {
-    display: none; } }
+    width: 100%;
+
+    border-radius: 100%;
+    background: #fff;
+}
+
+.c-section2__img::before {
+    position: absolute;
+    top: -250px;
+    left: 90px;
+
+    width: 976px;
+    height: 521px;
+
+    content: "";
+    transform: rotate(-45deg);
+
+    border-radius: 10%;
+    background: #cb4040 url(../img/s2-bg.jpg) no-repeat center/cover;
+}
+
+.c-section2__img::after {
+    width: 100%;
+    height: 100%;
+
+    content: "";
+
+    background: #cb4040;
+}
+
+@media (max-width:1024px) {
+    .c-section2__img {
+        display: none;
+    }
+}
