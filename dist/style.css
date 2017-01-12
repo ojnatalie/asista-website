@@ -687,7 +687,7 @@ section {
 }
 
 .c-btn:hover {
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .4);
 }
 
 .c-section2__img {
