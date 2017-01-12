@@ -474,7 +474,7 @@ section {
     transform: skewY(-10deg);
     transform-origin: right top;
 
-    background: #1e1e2b url(../img/figure-bg2.jpg) no-repeat center/cover;
+    background: #1e1e2b url(../img/figure-bg.jpg) no-repeat center/cover;
 
     align-items: center;
     justify-content: center;
