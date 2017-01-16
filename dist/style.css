@@ -1165,6 +1165,10 @@ body::-webkit-scrollbar-corner {
     fill: #4d4b59;
 }
 
+.u-icon:hover {
+    fill: rgba(255, 255, 255, .8);
+}
+
 .u-icon--logo {
     width: 10vw;
     height: 2.6vw;
