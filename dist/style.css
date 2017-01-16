@@ -480,28 +480,38 @@ body::-webkit-scrollbar-corner {
 }
 
 .c-figures__figure--right {
+    position: relative;
+
     display: flex;
-    width: 100%;
     height: 320px;
+    overflow: hidden;
 
     transform: skewY(-10deg);
     transform-origin: right top;
-
-    background: #1e1e2b url(../img/figure-bg.jpg) no-repeat center/cover;
 
     align-items: center;
     justify-content: center;
 }
 
-.figure--right__inner {
-    z-index: 4;
-
-    display: flex;
-    margin-left: 50px;
-
+.figure--right__inner,
+.content {
     transform: skewY(10deg);
 }
 
+.figure--right__inner {
+    position: absolute;
+    top: -60%;
+    right: 0;
+    bottom: -60%;
+    left: 0;
+
+    background: #1e1e2b url(../img/figure-bg.jpg) no-repeat center/cover;
+}
+
+.content {
+    display: flex;
+    margin-left: 45px;
+}
 .rhomb {
     display: flex;
     width: 100px;
@@ -534,8 +544,8 @@ body::-webkit-scrollbar-corner {
         margin-right: -10px;
     }
 
-    .figure--right__inner {
-        margin-left: 0;
+    .content {
+        margin-left: -13px;
     }
 }
 
