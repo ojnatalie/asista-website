@@ -466,7 +466,7 @@ body::-webkit-scrollbar-corner {
 
 @media (min-width: 1600px) {
     .c-figures {
-        height: 800px;
+        height: 710px;
         margin-top: -250px;
     }
 }
