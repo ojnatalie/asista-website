@@ -464,6 +464,13 @@ body::-webkit-scrollbar-corner {
     margin-top: -150px;
 }
 
+@media (min-width: 1600px) {
+    .c-figures {
+        height: 800px;
+        margin-top: -250px;
+    }
+}
+
 .c-figures__figure--left {
     position: absolute;
     top: 0;
@@ -479,9 +486,16 @@ body::-webkit-scrollbar-corner {
     background: #161621;
 }
 
+@media (min-width: 1600px) {
+    .c-figures__figure--left {
+        height: 420px;
+    }
+}
+
 .c-figures__figure--right {
     position: relative;
-
+    top: 0;
+    
     display: flex;
     height: 320px;
     overflow: hidden;
@@ -491,6 +505,12 @@ body::-webkit-scrollbar-corner {
 
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 1600px) {
+    .c-figures__figure--right {
+        height: 420px;
+    }
 }
 
 .figure--right__inner,
@@ -1147,6 +1167,7 @@ body::-webkit-scrollbar-corner {
 
 .c-footer__social__svg {
     display: flex;
+    max-width: 400px;
 }
 
 @media (max-width:948px) {
