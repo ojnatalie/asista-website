@@ -1166,7 +1166,7 @@ body::-webkit-scrollbar-corner {
 }
 
 .u-icon:hover {
-    fill: rgba(255, 255, 255, .8);
+    fill: #7e7b90;
 }
 
 .u-icon--logo {
@@ -1323,7 +1323,7 @@ body::-webkit-scrollbar-corner {
         padding-bottom: .5em;
         flex-direction: column;
 
-        font-size: 2em;        /*color: #4d4b59;*/
+        font-size: 2em;
     }
 }
 
