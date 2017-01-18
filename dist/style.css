@@ -263,11 +263,15 @@ body::-webkit-scrollbar-corner {
     color: #cad9e3;
 }
 
+.c-btn--arrow {
+    position: relative;
+    top: 3em;
+}
+
 .arrow {
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin-top: 3em;
 
     cursor: pointer;
     transition: .2s;
