@@ -159,7 +159,7 @@ body::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-corner {
     width: 10px;
 
-    background-color: #383643;
+    background-color: #999;
 }
 
 .o-base-width {
