@@ -403,6 +403,8 @@ body::-webkit-scrollbar-corner {
         display: block;
         padding: 0;
         margin-left: auto;
+        
+        cursor: pointer;
 
         border: none;
         background: none;
