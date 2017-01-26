@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
     $(".scroll").click(function(){
         $('html, body').animate({scrollTop: 900}, 1000);
     });
