@@ -150,14 +150,14 @@ section {
 }
 
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 13px;
 
     background-color: #100f17;
 }
 
 body::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-corner {
-    width: 10px;
+    width: 13px;
 
     background-color: #999;
 }
