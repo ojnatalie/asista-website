@@ -275,12 +275,32 @@ body::-webkit-scrollbar-corner {
 
     cursor: pointer;
     transition: .2s;
+    transition-duration: .3s;
+    transform: translateY(-6px);
+    animation-name: float;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
 
-    fill: #1e1f2b;
+    fill: #2d2e3c;
 }
 
 .arrow:hover {
     fill: rgba(255, 255, 255, .4);
+}
+
+@keyframes float {
+    50% {
+        -webkit-transform: translateY(-3px);
+            -ms-transform: translateY(-3px);
+                transform: translateY(-3px);
+    }
+    100% {
+        -webkit-transform: translateY(-6px);
+            -ms-transform: translateY(-6px);
+                transform: translateY(-6px);
+    }
 }
 
 @media (max-width:760px) {
