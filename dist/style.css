@@ -162,6 +162,29 @@ body::-webkit-scrollbar-corner {
     background-color: #999;
 }
 
+
+#preloader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+
+    background: rgba(10,10,17,1);
+}
+
+#status {
+    display: block;
+    width: 330px;
+    height: 330px;
+    margin: 150px auto;
+
+    transition: 1s;
+
+    opacity: 1;
+}
+
 .o-base-width {
     width: 100%;
     max-width: 1200px;
