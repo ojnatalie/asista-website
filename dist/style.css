@@ -170,6 +170,8 @@ body::-webkit-scrollbar-corner {
     bottom: 0;
     left: 0;
     z-index: 999;
+    
+    padding-left: 30px;
 
     background: rgba(10,10,17,1);
 }
