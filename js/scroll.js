@@ -4,7 +4,7 @@ $(function() {
     });
 });
 
-// And preloader
+
 $(function() {
     $('#status').css({
         'transform': 'scale(1.2)',
